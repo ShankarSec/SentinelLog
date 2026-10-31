@@ -1,0 +1,5 @@
+Sep 26 18:01:01 kali sshd[1001]: Failed password for admin from 192.168.56.10 port 40111 ssh2
+Sep 26 18:01:03 kali sshd[1002]: Failed password for admin from 192.168.56.10 port 40112 ssh2
+Sep 26 18:01:05 kali sshd[1003]: Failed password for admin from 192.168.56.10 port 40113 ssh2
+Sep 26 18:01:07 kali sshd[1004]: Failed password for admin from 192.168.56.10 port 40114 ssh2
+Sep 26 18:01:09 kali sshd[1005]: Accepted password for analyst from 192.168.56.10 port 40115 ssh2

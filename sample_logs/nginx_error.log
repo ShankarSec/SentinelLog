@@ -1,0 +1,6 @@
+2026/10/23 10:00:01 [error] 10.10.10.5 GET ../../etc/passwd
+2026/10/23 10:00:02 [error] 10.10.10.5 GET /index.php?id=1 UNION SELECT username,password
+2026/10/23 10:00:03 [error] 10.10.10.5 GET /cmd.php?cmd=whoami
+2026/10/23 10:00:04 [error] 10.10.10.5 GET ../../etc/shodow
+2026/10/23 10:00:05 [error] 10.10.10.5 GET /index.php?id=4 UNION SELECT username,password
+2026/10/23 10:00:06 [error] 10.10.10.5 GET /cmd.php?cmd=whoami

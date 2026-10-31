@@ -1,0 +1,8 @@
+[2026-10-23 10:00:01] 10.10.10.5 - - "GET /admin HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:02] 10.10.10.5 - - "GET /config HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:03] 10.10.10.5 - - "GET /phpmyadmin HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:04] 10.10.10.5 - - "GET /backup HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:05] 10.10.10.5 - - "GET /root HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:06] 10.10.10.5 - - "GET /robots.txt HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:07] 10.10.10.5 - - "GET /sitemap.xml HTTP/1.1" 200 "Mozilla"
+[2026-10-23 10:00:08] 10.10.10.5 - - "GET /mybb HTTP/1.1" 200 "Mozilla"

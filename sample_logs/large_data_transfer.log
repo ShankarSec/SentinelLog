@@ -1,0 +1,1 @@
+Oct 23 12:00:00 kali NETFLOW: outbound_transfer src_ip=192.168.56.30 dest_ip=203.0.113.10 bytes_sent=30000000 protocol=HTTPS

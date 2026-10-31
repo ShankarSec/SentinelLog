@@ -1,0 +1,12 @@
+rules:
+  - id: SSH_BRUTE_FORCE
+    name: SSH Brute Force
+    description: Detect multiple failed SSH authentication attempts from the same source IP.
+    mitre_attack: T1110
+    severity: dynamic
+
+  - id: SSH_FAILURES_THEN_SUCCESS
+    name: SSH Failures Followed By Success
+    description: Detect a successful SSH login after multiple failed authentication attempts.
+    mitre_attack: T1110
+    severity: dynamic

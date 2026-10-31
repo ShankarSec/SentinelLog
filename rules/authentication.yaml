@@ -1,0 +1,66 @@
+rules:
+  - id: SSH_BRUTE_FORCE
+    category: Authentication
+    protocol: SSH
+    enabled: true
+    description: Detect multiple failed SSH login attempts in short time
+
+  - id: SSH_FAILURES_THEN_SUCCESS
+    category: Authentication
+    protocol: SSH
+    enabled: true
+    description: Detect successful login after multiple failures
+
+  - id: ACCOUNT_CREATED
+    category: Account Management
+    protocol: Linux
+    enabled: true
+    description: Detect new account creation events
+
+  - id: ACCOUNT_DELETED
+    category: Account Management
+    protocol: Linux
+    enabled: true
+    description: Detect account deletion events
+
+  - id: EVENT_LOG_CLEARED
+    category: Log Tampering
+    protocol: Windows
+    enabled: true
+    description: Detect Event ID 104 (logs cleared)
+
+  - id: WHOAMI_EXECUTION
+    category: Process Execution
+    protocol: Windows
+    enabled: true
+    description: Detect Event ID 4688 with process name whoami
+
+  - id: POWERSHELL_EXECUTION
+    category: Process Execution
+    protocol: Windows
+    enabled: true
+    description: Detect suspicious PowerShell execution (Event ID 4688)
+
+  - id: LARGE_DATA_EXFIL
+    category: Network Activity
+    protocol: Any
+    enabled: true
+    description: Detect outbound traffic exceeding 25 MB threshold
+
+  - id: USB_INSERTION
+    category: Device Activity
+    protocol: Windows
+    enabled: true
+    description: Detect USB device insertion (if restricted by policy)
+
+  - id: MULTI_ACCOUNT_FAILURES
+    category: Authentication
+    protocol: SSH
+    enabled: true
+    description: Detect failed logins across multiple accounts from same IP
+    
+  - id: HTTP_BRUTE_FORCE
+    category: Authentication
+    protocol: HTTP
+    enabled: true
+    description: Detect repeated HTTP login failures from a single IP

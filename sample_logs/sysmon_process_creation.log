@@ -1,0 +1,4 @@
+2026-10-23 10:15:22 EventID=1 Image=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe CommandLine="powershell.exe -enc SQBFAFgA"
+2026-10-23 10:15:30 EventID=1 Image=C:\Windows\System32\cmd.exe CommandLine="cmd.exe /c whoami"
+2026-10-23 10:15:35 EventID=1 Image=C:\Tools\mimikatz.exe CommandLine="mimikatz.exe"
+2026-10-23 10:15:40 EventID=1 Image=C:\Windows\System32\rundll32.exe CommandLine="rundll32.exe malware.dll"

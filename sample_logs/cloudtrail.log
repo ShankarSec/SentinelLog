@@ -1,0 +1,21 @@
+2026-10-23 10:00:01 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Failure
+2026-10-23 10:00:02 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Failure
+2026-10-23 10:00:03 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Failure
+2026-10-23 10:00:04 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Failure
+2026-10-23 10:00:05 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Failure
+2026-10-23 10:00:06 source=aws event=ConsoleLogin user=root@corp.com ip=203.0.113.100 result=Success
+2026-10-23 10:01:00 source=aws event=CreateUser user=root@corp.com ip=203.0.113.100 target=BackdoorUser
+2026-10-23 10:02:00 source=aws event=PutUserPolicy user=root@corp.com ip=203.0.113.100 target=BackdoorUser policy=AdministratorAccess
+2026-10-23 10:03:00 source=aws event=CreateAccessKey user=root@corp.com ip=203.0.113.100 target=BackdoorUser
+2026-10-23 10:05:00 source=azure event=SignIn user=svc@corp.onmicrosoft.com ip=198.51.100.50 status=Failed
+2026-10-23 10:05:01 source=azure event=SignIn user=svc@corp.onmicrosoft.com ip=198.51.100.50 status=Failed
+2026-10-23 10:05:02 source=azure event=SignIn user=svc@corp.onmicrosoft.com ip=198.51.100.50 status=Failed
+2026-10-23 10:05:03 source=azure event=SignIn user=svc@corp.onmicrosoft.com ip=198.51.100.50 status=Failed
+2026-10-23 10:05:04 source=azure event=SignIn user=svc@corp.onmicrosoft.com ip=198.51.100.50 status=Failed
+2026-10-23 10:06:00 source=azure event=RoleAssignmentCreated user=svc@corp.onmicrosoft.com ip=198.51.100.50 target=Owner
+2026-10-23 10:08:00 source=gcp event=login.userlogin user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 status=FAILURE
+2026-10-23 10:08:01 source=gcp event=login.userlogin user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 status=FAILURE
+2026-10-23 10:08:02 source=gcp event=login.userlogin user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 status=FAILURE
+2026-10-23 10:08:03 source=gcp event=login.userlogin user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 status=FAILURE
+2026-10-23 10:08:04 source=gcp event=login.userlogin user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 status=FAILURE
+2026-10-23 10:09:00 source=gcp event=iam.setIamPolicy user=admin@corp.iam.gserviceaccount.com ip=203.0.113.200 target=roles/owner

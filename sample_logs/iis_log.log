@@ -1,0 +1,15 @@
+2026-10-23 10:00:01 192.168.1.50 GET /index.aspx 200
+2026-10-23 10:00:02 192.168.1.50 GET /../../etc/passwd 404
+2026-10-23 10:00:03 192.168.1.50 POST /login.aspx 401
+2026-10-23 10:00:04 192.168.1.50 POST /login.aspx 401
+2026-10-23 10:00:05 192.168.1.50 POST /login.aspx 401
+2026-10-23 10:00:06 192.168.1.50 POST /login.aspx 401
+2026-10-23 10:00:07 192.168.1.50 GET /admin.aspx 403
+2026-10-23 10:00:08 192.168.1.50 GET /config.aspx 403
+2026-10-23 10:00:09 192.168.1.50 GET /backup.aspx 403
+2026-10-23 10:00:10 192.168.1.50 GET /index.aspx?id=1 UNION SELECT username,password FROM users 200
+2026-10-23 10:00:11 192.168.1.50 GET /cmd.aspx?cmd=whoami 200
+2026-10-23 10:00:12 192.168.1.50 GET /shell.aspx 200
+2026-10-23 10:00:13 192.168.1.50 GET /download.aspx?path=\\fileserver\share\secret.doc 200
+2026-10-23 10:00:14 192.168.1.50 GET /verify.aspx?hash=aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d 200
+2026-10-23 10:00:15 192.168.1.50 GET /contact.aspx?notify=support@corp.example.com 200

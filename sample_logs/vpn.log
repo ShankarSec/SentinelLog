@@ -1,0 +1,16 @@
+2026-10-23 10:00:01 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:00:02 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:00:03 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:00:04 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:00:05 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:00:06 [OpenVPN] AUTH_FAILED user=remote_user ip=203.0.113.50 reason=invalid_password
+2026-10-23 10:05:00 [OpenVPN] AUTH_SUCCESS user=remote_user ip=203.0.113.50
+2026-10-23 10:10:00 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:10:01 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:10:02 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:10:03 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:10:04 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:10:05 [Cisco] AUTH_FAILED user=vpn_user ip=198.51.100.20 reason=bad_credentials
+2026-10-23 10:15:00 [Cisco] AUTH_SUCCESS user=vpn_user ip=198.51.100.20
+2026-10-23 14:00:00 [Fortinet] AUTH_SUCCESS user=travel_user ip=203.0.113.50
+2026-10-23 14:05:00 [Fortinet] AUTH_SUCCESS user=travel_user ip=198.51.100.99
