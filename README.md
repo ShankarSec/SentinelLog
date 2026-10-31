@@ -21,28 +21,22 @@ no database, no web framework, no cloud services.
 
 ## Quick Start
 
-bash
-pip install -r requirements.txt
-python src/cli.py analyze-all sample_logs/
-
+<pre><code>pip install -r requirements.txt
+python src/cli.py analyze-all sample_logs/</code></pre>
 
 ## Report Formats
 
-
-reports/incident_report.txt    - Human-readable
+<pre><code>reports/incident_report.txt    - Human-readable
 reports/incident_report.json   - Machine-readable
 reports/incident_report.html   - Interactive dashboard
-reports/incident_report.pdf    - SOC export
-
+reports/incident_report.pdf    - SOC export</code></pre>
 
 ## Usage
 
-bash
-python src/cli.py analyze-all sample_logs/ --output reports/ --window 10
+<pre><code>python src/cli.py analyze-all sample_logs/ --output reports/ --window 10
 python src/cli.py analyze single.log
 python src/cli.py version
-python src/cli.py rules
-
+python src/cli.py rules</code></pre>
 
 Options for `analyze` and `analyze-all`:
 
@@ -116,30 +110,25 @@ Full mapping: [docs/mitre_matrix.md](docs/mitre_matrix.md).
 
 ## Architecture
 
-```
-┌─────────────┐     ┌─────────┐     ┌────────────┐     ┌─────────────┐     ┌──────────┐
+<pre><code>┌─────────────┐     ┌─────────┐     ┌────────────┐     ┌─────────────┐     ┌──────────┐
 │  Log Files  │────▶│ Parser  │────▶│ Detectors  │────▶│ Correlation │────▶│ Reporter │
 └─────────────┘     └─────────┘     └────────────┘     └─────────────┘     └──────────┘
                                                                   │
                                                                   ▼
                                                            ┌─────────────┐
                                                            │  Scoring    │
-                                                           └─────────────┘
-```
+                                                           └─────────────┘</code></pre>
 
 See [docs/architecture.md](docs/architecture.md) and
 [docs/attack_chains.md](docs/attack_chains.md).
 
 ## Testing
 
-bash
-python -m pytest tests/ -v
-
+<pre><code>python -m pytest tests/ -v</code></pre>
 
 ## Project Structure
 
-```
-SentinelLog/
+<pre><code>SentinelLog/
 ├── sample_logs/        # 21 sample log files (SSH, Windows, Sysmon, firewall, DNS,
 │                       #   Apache, Nginx, IIS, Active Directory, VPN, cloud, ...)
 ├── reports/            # generated: incident_report.{txt,json,html,pdf}
@@ -180,5 +169,4 @@ SentinelLog/
 │   └── test_*.py       # original v1.0 unit tests (run with PYTHONPATH=src)
 ├── requirements.txt
 ├── README.md
-└── .gitignore
-```
+└── .gitignore</code></pre>   
